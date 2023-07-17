@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration Form</title>
+</head>
+<body>
+  <h1>Registration Form</h1>
+  
+  <form>
+    <label for="firstName">First Name: *</label>
+    <input type="text" id="firstName" name="firstName" required>
+    <br>
+    
+    <label for="lastName">Last Name: *</label>
+    <input type="text" id="lastName" name="lastName" required>
+    <br>
+    
+    <label for="email">Email address: *</label>
+    <input type="email" id="email" name="email" required>
+    <br>
+    
+    <label for="password">Password: *</label>
+    <input type="password" id="password" name="password" required>
+    <br>
+    
+    <label for="confirmPassword">Confirm Password: *</label>
+    <input type="password" id="confirmPassword" name="confirmPassword" required>
+    <br>
+    
+    <label for="birthday">Birthday:</label>
+    <input type="date" id="birthday" name="birthday">
+    <br>
+    
+    <label>Gender Identity:</label>
+    <br>
+    <label>
+      <input type="radio" name="gender" value="male"> Male
+    </label>
+   
+    <label>
+      <input type="radio" name="gender" value="female"> Female
+    </label>
+    
+    <label>
+      <input type="radio" name="gender" value="non-binary"> Non-Binary
+    </label>
+   
+    <label>
+      <input type="radio" name="gender" value="prefer-not-to-answer"> I prefer not to answer
+    </label>
+    <br>
+    
+    <label for="description">A short description about myself: *</label>
+    <textarea id="description" name="description" required></textarea>
+    <br>
+    
+    <label for="favoriteLanguage">Favorite Language:</label>
+    <select id="favoriteLanguage" name="favoriteLanguage">
+      <option value="javascript">JavaScript</option>
+      <option value="python">Python</option>
+      <option value="java">Java</option>
+      <option value="ruby">Ruby</option>
+      <option value="csharp">C#</option>
+    </select>
+    <br>
+    
+    <label for="emailUpdates">Yes, I would like to receive periodic email updates:</label>
+    <input type="checkbox" id="emailUpdates" name="emailUpdates">
+    <br>
+    
+    <input type="submit" value="Create Account">
+  </form>
+  
+</body>
+</html>
