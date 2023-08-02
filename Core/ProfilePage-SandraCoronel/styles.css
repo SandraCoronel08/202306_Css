@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: monospace;
+}
+
+header {
+    min-width: 850px;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 12%;
+}
+
+.nav-tittle {
+    color: whitesmoke;
+}
+
+.nav-bar {
+    display: flex;
+}
+
+.nav-bar a {
+    color: whitesmoke;
+    font-size: 1.1rem;
+    margin: 0px 30px;
+}
+
+.btn-signout {
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: 1rem;
+    background-color: darkcyan;
+    padding: 10px 20px;
+}
+
+.btn-signout:hover {
+    background-color: whitesmoke;
+    color: darkcyan;
+    cursor: pointer;
+}
+
+.container {
+    width: 76%;
+    height: auto;
+    margin: 150px 12% 0px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.col-1 {
+    width: 60%;
+    height: auto;
+    margin-right: 30px;
+    display: block;
+}
+
+.col-2 {
+    width: 40%;
+    height: auto;
+    display: block;
+}
+
+.profile-info {
+    margin-bottom: 30px;
+    border: 2px solid gray;
+}
+
+.style-bar {
+    background-color: darkcyan;
+    width: 100%;
+    height: 100px;
+}
+
+.profile-icon {
+    width: 0px;
+    height: 50px;
+}
+
+.profile-icon img {
+    width: 100px;
+    position: relative;
+    top: -60px;
+    left: 50px;
+}
+
+.information {
+    margin: 0px 20px 20px 20px;
+}
+
+.icon {
+    width: 15px;
+}
+
+.ubi-text {
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.edit-text {
+    font-size: 1.1rem;
+}
+
+.profile-info p {
+    margin: 5px 0px 5px 0px;
+}
+
+.education {
+    border: 2px solid gray;
+}
+
+.edu-tittle {
+    background-color: black;
+    color: whitesmoke;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.edu-content {
+    padding: 10px 20px;
+}
+
+.edu-content p {
+    margin: 10px 0px;
+}
+
+.conect-req {
+    border: 2px solid gray;
+}
+
+.req-tittle {
+    background-color: black;
+    color: whitesmoke;
+    padding: 15px 20px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.profile-photo {
+    width: 15%;
+    border-radius: 50%;
+}
+
+.accept,
+.cancel {
+    width: 10%;
+}
+
+.accept {
+    margin-left: 35%;
+}
+
+.your-connect {
+    border: 2px solid gray;
+    margin-top: 30px;
+}
+
+.view-more {
+    border-top: 2px solid gray;
+    padding: 2px 20px;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.users {
+    padding: 20px;
+}
+
+.users li {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    padding: 10px;
+}
+
+.users img {
+    margin-right: 30px;
+}
+
+.noti {
+    background-color: whitesmoke;
+    color: black;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 50%;
+}
